@@ -138,7 +138,7 @@ body::-webkit-scrollbar {
     margin-bottom: 50px;
     width: 100%;
     border-bottom: 1px solid rgb(175, 216, 244);
-    width: 87vw;
+
 
 
 
@@ -177,6 +177,17 @@ body::-webkit-scrollbar {
     font-weight: bold;
     margin-right: 15px;
 }
+
+
+.profile-top a {
+    text-decoration: none;
+}
+
+.profile-top>a:hover {
+
+    color: #f4a701;
+}
+
 
 .small-avatar {
     width: 35px;
@@ -252,13 +263,14 @@ body::-webkit-scrollbar {
     font-size: clamp(0.85rem, 1.2vw, 1rem);
     line-height: 1.4;
     color: #555;
-    height: 90vh;
+    font-size: 13px;
 
 
-    display: -webkit-box;
+
+    /* display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .text {
